@@ -13,4 +13,4 @@ def gitlab():
     return process_gitlab_data(request)
 
 
-run(host='localhost', port=8080)
+run(host='::', port=8080)
